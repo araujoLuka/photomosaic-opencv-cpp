@@ -1,0 +1,30 @@
+# Diretórios de build do CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+.cache/
+
+# Arquivo de saída do seu programa
+/output.jpg
+/photomosaic
+
+# Arquivos temporários ou de log
+*.log
+*.tmp
+
+# Diretórios que podem conter imagens ou dados não destinados ao controle de versão
+/database/
+!/database/.gitkeep
+
+# Arquivos específicos do editor ou sistema
+.DS_Store
+.vscode/
+.idea/
+
+# Outros arquivos gerados durante a build
+*.swo
+*.swp
+*~
+

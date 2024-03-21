@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22)
+project( photomosaic )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( photomosaic main.cpp )
+target_link_libraries( photomosaic ${OpenCV_LIBS} )
